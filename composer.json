@@ -1,0 +1,25 @@
+{
+  "name": "droppin/aheadworks-ahcab2b-api",
+  "description": "Adds REST endpoints to Aheadworks CA B2B",
+  "minimum-stability": "stable",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "morten",
+      "email": "morten@droppinstudio.dk"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Droppin\\Ahcab2b\\": ""
+    }
+  }
+}
